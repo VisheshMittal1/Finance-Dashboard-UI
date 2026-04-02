@@ -11,7 +11,7 @@ This project focuses on frontend architecture, UI/UX design, and efficient state
 
 ## 🚀 Live Demo
 
-🔗 Live URL: https://your-project.vercel.app  
+🔗 Live URL: https://finance-dashboard-ui-green.vercel.app/  
 🔗 GitHub Repository: https://github.com/VisheshMittal1/Finance-Dashboard-UI
 
 ---
@@ -66,6 +66,10 @@ This project focuses on frontend architecture, UI/UX design, and efficient state
 ---
 
 ## ⚙️ Installation & Setup
-
-Clone the repository:
-
+**Clone the repository**  
+```bash
+git clone https://github.com/VisheshMittal1/Finance-Dashboard-UI.git
+cd Finance-Dashboard-UI
+npm install
+npm run dev
+Open the URL shown in terminal, usually: http://localhost:5173
