@@ -1,16 +1,71 @@
-# React + Vite
+# 💰 FinTrack - Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+FinTrack is a modern and interactive Finance Dashboard built using React and Tailwind CSS.  
+It helps users track financial activities, visualize spending patterns, and gain useful insights through a clean and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project focuses on frontend architecture, UI/UX design, and efficient state management.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 Live URL: https://your-project.vercel.app  
+🔗 GitHub Repository: https://github.com/VisheshMittal1/Finance-Dashboard-UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### 📊 Dashboard Overview
+- Total Balance, Income, and Expense summary cards
+- Responsive and modern UI
+- Clean layout with proper spacing and design hierarchy
+
+### 📈 Data Visualization
+- Line Chart for financial trends
+- Pie Chart for spending breakdown by category
+- Real-time updates on data changes
+
+### 📋 Transactions Management
+- List of all transactions with:
+  - Date
+  - Category
+  - Amount
+  - Type (Income/Expense)
+- Search functionality (by category)
+- Filter (Income / Expense / All)
+
+### 🔐 Role-Based UI (Frontend Simulation)
+- Viewer → Can only view data
+- Admin → Can add transactions
+
+### ➕ Add Transaction (Admin Only)
+- Add new income or expense
+- Instantly updates dashboard, charts, and insights
+
+### 💡 Insights Section
+- Top spending category
+- Total number of transactions
+- Dynamic insights based on data
+
+### 🌙 Dark Mode
+- Toggle between light and dark themes
+- Theme preference saved using localStorage
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js (Vite)
+- 🎨 Tailwind CSS
+- 📊 Recharts (Charts & Visualization)
+- 🧠 JavaScript (ES6+)
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
